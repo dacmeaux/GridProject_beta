@@ -1,0 +1,1 @@
+<div class="clear {{CLASSNAME}}"></div>

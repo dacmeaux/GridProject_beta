@@ -1,0 +1,46 @@
+body,html,
+h1,h2,h3,h4,h5,h6,
+p,div,ul,ol,li,dl,dd,dt,blockquote,
+table,tr,th,td,
+form,fieldset,textarea,input,
+pre,code
+{
+    margin: 0;
+    padding: 0;
+}
+
+.hidden
+{
+    display: none !important;
+}
+
+.shown
+{
+    display: block !important;
+}
+
+.clearer
+{
+    clear: both;
+    display: block;
+    font-size: 1px;
+    height: 0px;
+    visibility: hidden;
+}
+
+h1,h2,h3,p
+{
+    display: block;
+}
+
+body
+{
+    font-size: 16px !important;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #f0f0f0;
+}
+
+a, a:link, a:active, a:visited, a:hover
+{
+    text-decoration: none;
+}

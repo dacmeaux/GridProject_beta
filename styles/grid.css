@@ -1,0 +1,169 @@
+.content-grid-section
+{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+}
+
+.grid
+{
+    float: left;
+    width: 25%;
+    display: block;
+    position: relative;
+}
+        
+.grid-inner
+{
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.collectionui-grid-inner
+{
+    width: 94%;
+    margin: 3% auto;
+    position: relative;
+}
+        
+.divideline
+{
+    background-color: #E7E7E7;
+    height: 80%;
+    width: 1px;
+    position: absolute;
+    top: 10%;
+    right: -3%; 
+}
+    
+.grid-3-divideline
+{
+    display: none;
+}
+
+.grid-1-clearer,
+.grid-2-clearer,
+.grid-3-clearer
+{
+    display: none;
+}
+
+.grid-no-content
+{
+    width: 100% !important;
+}
+
+/********** RESPONSIVE **********/
+@media screen and (max-width: 1200px)
+{
+
+}
+
+@media screen and (max-width: 1054px)
+{
+
+}
+
+@media screen and (max-width: 1024px)
+{
+
+}
+
+@media screen and (max-width: 900px)
+{
+    /*grid: 3 columns*/
+    .grid
+    {
+        width: 33.33%;
+    }
+    
+    .grid-3-clearer
+    {
+        display: block;
+    }
+    
+    .grid-4-clearer
+    {
+        display: none;
+    }
+    
+    .grid-3-divideline
+    {
+        display: none;
+    }
+    
+    .grid-4-divideline
+    {
+        display: inline;
+    }
+        
+}
+
+@media screen and (max-width: 768px) 
+{
+    /*grid: 2 columns*/
+    .grid
+    {
+        width: 50%;
+    }
+    
+    .grid-2-clearer
+    {
+        display: block;
+    }
+    
+    .grid-3-clearer
+    {
+        display: none;
+    }
+    
+    .grid-3-divideline
+    {
+        display: inline;
+    }
+        
+    .grid-2-divideline
+    {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 640px)
+{
+
+}
+
+@media screen and (max-width: 480px)
+{
+    /*grid: 1 column*/
+    .grid
+    {
+        width: 100%;
+    }
+    
+    .grid-1-clearer
+    {
+        display: block;
+    }
+    
+    .grid-2-clearer
+    {
+        display: none;
+    }
+    
+    .divideline
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+        
+}
