@@ -205,9 +205,11 @@ class Grid_Object extends GenericObject
         $color_hex = '000000';
         $text_color_hex = '000000';
 
+
         for( $i = 0; $i < sizeof($content); $i++ )
         {
             $x = 0;
+            $color_hex_array = array();
             $text_color_hex_array = array();
 
             if( $this->debug )

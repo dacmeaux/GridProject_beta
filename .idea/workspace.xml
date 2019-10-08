@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4cd002fd-6da7-4d04-90e4-bbab427fa687" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.LayoutTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.LayoutTemplate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class.Grid_Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.Grid_Object.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
