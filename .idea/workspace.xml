@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd002fd-6da7-4d04-90e4-bbab427fa687" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/hello_world.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/grid_project.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.GenericObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.GenericObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.Grid_Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.Grid_Object.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class.LayoutTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.LayoutTemplate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface.Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/interface.Object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/common.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hello_world.tpl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GridProject" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -105,7 +107,7 @@
       <workItem from="1570486766227" duration="598000" />
       <workItem from="1570497596253" duration="5885000" />
       <workItem from="1570536197696" duration="749000" />
-      <workItem from="1570553616145" duration="2108000" />
+      <workItem from="1570553616145" duration="4521000" />
     </task>
     <servers />
   </component>

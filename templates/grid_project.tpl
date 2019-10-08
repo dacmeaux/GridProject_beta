@@ -1,0 +1,1 @@
+<h1 class="page-title">{{PAGE_TITLE}}</h1>
