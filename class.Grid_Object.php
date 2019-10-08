@@ -208,22 +208,18 @@ class Grid_Object extends GenericObject
         for( $i = 0; $i < sizeof($content); $i++ )
         {
             $x = 0;
+            $text_color_hex_array = array();
 
             if( $this->debug )
             {
-                $color_hex = dechex($this->colors[rand(0, 15)]) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15));
+                for( $z = 0; $z < 6; $z++ )
+                {
+                    $color_hex_array[] = dechex(rand(0,15));
+                    $text_color_hex_array[] = dechex(rand(0,15));
+                }
 
-                $text_color_hex = dechex($this->colors[rand(0, 15)]) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15)) .
-                    dechex(rand(0, 15));
+                $color_hex = implode('', $color_hex_array);
+                $text_color_hex = implode('', $text_color_hex_array);
             }
 
             foreach( $columns as $column_at=>$viewport_width)
