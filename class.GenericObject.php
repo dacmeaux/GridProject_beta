@@ -72,7 +72,7 @@ abstract class GenericObject implements Object_Interface{
         return __METHOD__;
     }
             
-    public function delete($id, $type = 'appointment')
+    public function delete($id, $type = 'none')
     {
         return __METHOD__;
     }

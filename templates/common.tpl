@@ -13,6 +13,7 @@
     {{HEAD_SCRIPT_FILE}}
 </head>
 <body>
+    {{HELLO_WORLD_TEMPLATE}}
     {{CONTENT}}
 
     <script type="text/javascript">

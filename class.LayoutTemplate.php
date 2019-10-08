@@ -32,27 +32,12 @@ class LayoutTemplate{
 
     /**
      * Constructor
-     * 
-     * @param string        template    the filename or the html layout string
-     * @param object       skin_obj    The Skin Object
-     * @param object       page_obj    The Page Object
-     * @access public
-     * @return void
-     * @since      Method available since Release 1.0
-     */
-    /***
-     * @var string
-     */
-
-    /**
-     * Constructor
      *
      * @param string template
      * @access public
      * @return void
      * @since Method available since Release 1.0
      */
-
     public function __construct($template = 'default.tpl'){
         if( $template != '' )
             $this->loadTemplate($template);
@@ -159,7 +144,7 @@ class LayoutTemplate{
     /**
      * Gets a token value from the params array
      * This is a PHP Overload Method that does exactly what LayoutToken::getParam() does,
-     *  but only takes one arguments.
+     * but only takes one argument.
      * Get like $object->name
      * 
      * @param string        name    the name of the token to retrieve
@@ -170,10 +155,11 @@ class LayoutTemplate{
     public function __get($name){
         return $this->params[$name];
     }
+
     /** @noinspection PhpUnused */
 
     /**
-     * Handle any preprocessing
+     * Handle any preprocess
      *
      * @param string html
      * @access public
@@ -198,30 +184,24 @@ class LayoutTemplate{
      * @since      Method available since Release 1.0
      */
     public function process($clean = false){
-        if( !$this->hasTokens() )
-        {
+        if( !$this->hasTokens() ){
             $this->processed = true;
             return;
         }
 
-        // First handle all template type tokens
-        foreach( $this->params as $k=>$v )
-        {       
-            if( preg_match('/_template/', $k) )
-            {
-                $this->replaceToken($k, $v);
-                unset($this->params[$k]);
-            }
+        // Replace any template tokens first
+        if( preg_match('/([\w_]+)_template/i', $this->html,$e) ) {
+            $template = file_get_contents('templates/' . strtolower($e[1]) . '.tpl', true);
+            $this->replaceToken($e[0], $template);
+            unset($this->params[$e[1]]);
         }
     
         // Then handle regular tokens
-        foreach( $this->params as $k=>$v )
-        {
+        foreach( $this->params as $k=>$v ){
             $this->replaceToken($k, $v);
         }
     
-        if( $clean )
-        {
+        if( $clean ){
             $this->clean();
             $this->processed = true;
         }

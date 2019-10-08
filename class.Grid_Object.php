@@ -60,6 +60,7 @@ class Grid_Object extends GenericObject
             $content = array($content);
                 
         $output[] = $this->addGrid($content, $columns);
+        // Add CSS if specified
         $this->addCss($content, $columns);
 
         $this->data = $output;

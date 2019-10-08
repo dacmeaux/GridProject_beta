@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd002fd-6da7-4d04-90e4-bbab427fa687" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/hello_world.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.GenericObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.GenericObject.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class.Grid_Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.Grid_Object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.LayoutTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.LayoutTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/interface.Object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +103,9 @@
       <workItem from="1570462015730" duration="7623000" />
       <workItem from="1570481629512" duration="3041000" />
       <workItem from="1570486766227" duration="598000" />
-      <workItem from="1570497596253" duration="5283000" />
+      <workItem from="1570497596253" duration="5885000" />
+      <workItem from="1570536197696" duration="749000" />
+      <workItem from="1570553616145" duration="2108000" />
     </task>
     <servers />
   </component>
