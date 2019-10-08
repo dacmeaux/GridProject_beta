@@ -1,3 +1,4 @@
+<?php /** @noinspection PhpMissingFieldTypeInspection */
 /** @noinspection PhpUnusedParameterInspection */
 /** @noinspection PhpUnused */
 require_once 'interface.Object.php';
