@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cd002fd-6da7-4d04-90e4-bbab427fa687" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.GenericObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.GenericObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +34,11 @@
   <component name="PhpWebServerValidation" path_to_validation_script="C:\xampp\php\www\Grid Project" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1RkUzQfowsMPi9KkK5WOwQGXlMF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -94,7 +97,7 @@
       <workItem from="1570462015730" duration="7623000" />
       <workItem from="1570481629512" duration="3041000" />
       <workItem from="1570486766227" duration="598000" />
-      <workItem from="1570497596253" duration="2456000" />
+      <workItem from="1570497596253" duration="2922000" />
     </task>
     <servers />
   </component>
@@ -115,6 +118,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/../NewGridProject" />
       <path value="$PROJECT_DIR$/xdebug" />

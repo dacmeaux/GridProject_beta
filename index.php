@@ -6,7 +6,7 @@ require_once 'class.Grid_Object.php';
 $styles = file_get_contents('styles/grid.css', true);
 
 $_tpl = new LayoutTemplate('common.tpl');
-$_tpl->default_style = 'css/default.css';
+$_tpl->default_style = 'styles/default.css';
 $_tpl->styles = preg_replace('/[\\r\\n\\t]*\s\s+/', ' ', $styles);
 
 $grid = Grid_Object::getInstance();
