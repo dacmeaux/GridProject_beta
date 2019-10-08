@@ -16,7 +16,8 @@
  * @property int number
  * @property string class_rules
  * @property string title
- * @package      Layout
+ * @property string page_title
+ * @package      LayoutTemplate
  * @author       Duane A. Comeaux <dacmeaux@gmail.com>
  * @license      http://www.php.net/license/3_0.txt  PHP License 3.0
  * @version      Release: @2.0@
@@ -193,14 +194,13 @@ class LayoutTemplate{
         if( preg_match('/([\w_]+)_template/i', $this->html,$e) ) {
             $template = file_get_contents('templates/' . strtolower($e[1]) . '.tpl', true);
             $this->replaceToken($e[0], $template);
-            unset($this->params[$e[1]]);
         }
     
-        // Then handle regular tokens
-        foreach( $this->params as $k=>$v ){
+        // Then replace regular tokens
+        foreach( $this->params as $k=>$v )
             $this->replaceToken($k, $v);
-        }
-    
+
+        // Remove any orphaned tokens
         if( $clean ){
             $this->clean();
             $this->processed = true;
