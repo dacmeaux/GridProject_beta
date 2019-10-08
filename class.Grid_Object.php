@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection PhpMissingFieldTypeInspection */
 require_once 'class.GenericObject.php';
 require_once 'class.LayoutTemplate.php';
         

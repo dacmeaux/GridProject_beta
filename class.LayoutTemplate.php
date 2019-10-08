@@ -1,9 +1,20 @@
-<?php /** @noinspection PhpUnused */
+<?php /** @noinspection PhpMissingFieldTypeInspection */
+/** @noinspection PhpUnused */
 
 /**
  * Token Handler class
  * Templating Engine with token replacement and temporary data storage
- * 
+ *
+ * @property string class
+ * @property string no_content_class
+ * @property string clearers
+ * @property string classname
+ * @property string width
+ * @property string default_style
+ * @property string|string[]|null styles
+ * @property string content
+ * @property int number
+ * @property string class_rules
  * @package      Layout
  * @author       Duane A. Comeaux <dacmeaux@gmail.com>
  * @license      http://www.php.net/license/3_0.txt  PHP License 3.0
@@ -85,7 +96,6 @@ class LayoutTemplate{
      * @return void
      * @since Method available since Release 1.0
      */
-    /*** @noinspection PhpUnused */
     public function importParams(Array $params){
         $this->params = $params;
     }
@@ -238,7 +248,6 @@ class LayoutTemplate{
      * @return void
      * @since      Method available since Release 1.0
      */
-    /*** @noinspection PhpUnused */
     public function addStoredHtml($html){
         $this->stored_html[] = $html;
     }
@@ -285,6 +294,10 @@ class LayoutTemplate{
 
     /**
      * Returns an instance of this class
+     *
+     * @access public/static
+     * @return object
+     * @since method available since Release 1.0
      */
     /*** @noinspection PhpUnused */
     public static function getInstance(){

@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require_once 'class.LayoutTemplate.php';
 require_once 'class.Grid_Object.php';
 
@@ -19,4 +20,5 @@ $html = $grid->process();
 $_tpl->styles .= $grid->getCss();
 $_tpl->content = $html;
 
+ob_end_clean();
 echo $_tpl->getHtml(true);

@@ -2,7 +2,7 @@
 <html lang="eng">
 <head>
     <title>{{TITLE}}</title>
-    <link rel="stylesheet" href="{{DEFAULT_STYLE}}" id="default-style"/>
+    <link rel="stylesheet" href="{{DEFAULT_STYLE}}" id="default-style" />
     <style>
         {{STYLES}}
     </style>
