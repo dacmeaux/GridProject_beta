@@ -15,6 +15,7 @@
  * @property string content
  * @property int number
  * @property string class_rules
+ * @property string title
  * @package      Layout
  * @author       Duane A. Comeaux <dacmeaux@gmail.com>
  * @license      http://www.php.net/license/3_0.txt  PHP License 3.0
