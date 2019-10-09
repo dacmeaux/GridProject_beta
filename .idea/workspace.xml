@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd002fd-6da7-4d04-90e4-bbab427fa687" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/grid_project.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.LayoutTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.LayoutTemplate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hello_world.tpl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +50,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -76,14 +71,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.index.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -107,7 +97,13 @@
       <workItem from="1570486766227" duration="598000" />
       <workItem from="1570497596253" duration="5885000" />
       <workItem from="1570536197696" duration="749000" />
-      <workItem from="1570553616145" duration="4521000" />
+      <workItem from="1570553616145" duration="5318000" />
+      <workItem from="1570574823533" duration="84000" />
+      <workItem from="1570574989929" duration="109000" />
+      <workItem from="1570575173794" duration="43000" />
+      <workItem from="1570575458746" duration="33000" />
+      <workItem from="1570575542053" duration="78000" />
+      <workItem from="1570594521914" duration="338000" />
     </task>
     <servers />
   </component>
