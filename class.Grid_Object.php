@@ -1,4 +1,5 @@
 <?php /** @noinspection PhpMissingFieldTypeInspection */
+require_once 'class.PathFinder.php';
 require_once 'class.GenericObject.php';
 require_once 'class.LayoutTemplate.php';
         
@@ -13,6 +14,7 @@ class Grid_Object extends GenericObject
     private $generate_css = false;
     private $debug = false;
     private $colors = array();
+    private $pathfinder = null;
 
     // **************************************************
     // Constructor.

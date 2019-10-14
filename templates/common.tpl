@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
     <title>{{TITLE}}</title>
     <link rel="stylesheet" href="{{DEFAULT_STYLE}}" id="default-style" />

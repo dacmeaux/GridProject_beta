@@ -1,4 +1,7 @@
-<?php /** @noinspection PhpMissingFieldTypeInspection */
+<?php
+require_once 'class.PathFinder.php';
+
+/** @noinspection PhpMissingFieldTypeInspection */
 /** @noinspection PhpUnused */
 
 /**
@@ -30,6 +33,7 @@ class LayoutTemplate{
     public $stored_html = array();
     private $processed = false;
     private $token_pattern = '/\{\{[\w]*\}\}/';
+    private $pathfinder = null;
 
     /**
      * Constructor
@@ -40,6 +44,10 @@ class LayoutTemplate{
      * @since Method available since Release 1.0
      */
     public function __construct($template = 'default.tpl'){
+        // Setup the pathfinder
+        $this->pathfinder = PathFinder::getInstance();
+        $this->pathfinder->init(false)->loadDirectories();
+
         if( $template != '' )
             $this->loadTemplate($template);
     }
@@ -55,7 +63,7 @@ class LayoutTemplate{
      * @since      Method available since Release 1.0
      */
     public function loadTemplate($template = 'default'){
-        $file = 'templates/'. $template;
+        $file = $this->pathfinder->getPath($template, 'templates', false);
 
         if( is_file($file) )
             $content = file_get_contents($file, true);

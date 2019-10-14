@@ -3,7 +3,6 @@
 /** @noinspection PhpUnused */
 require_once 'interface.Object.php';
 
-
 abstract class GenericObject implements Object_Interface{
     protected $_properties = array();
     public static $inst;

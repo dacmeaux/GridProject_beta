@@ -21,5 +21,5 @@ $html = $grid->process();
 $_tpl->styles .= $grid->getCss();
 $_tpl->content = $html;
 
-ob_end_clean();
+//ob_end_clean();
 echo $_tpl->getHtml(true);

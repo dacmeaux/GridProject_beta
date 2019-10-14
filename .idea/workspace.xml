@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd002fd-6da7-4d04-90e4-bbab427fa687" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/class.PathFinder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/directories.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dacme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dacme.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.GenericObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.GenericObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.Grid_Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.Grid_Object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.LayoutTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.LayoutTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +63,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GridProject" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\php\www\Grid Project" />
     </key>
@@ -104,6 +116,13 @@
       <workItem from="1570575458746" duration="33000" />
       <workItem from="1570575542053" duration="78000" />
       <workItem from="1570594521914" duration="338000" />
+      <workItem from="1570630898538" duration="219000" />
+      <workItem from="1570726374148" duration="609000" />
+      <workItem from="1570750531735" duration="314000" />
+      <workItem from="1570816614315" duration="337000" />
+      <workItem from="1570828091808" duration="3330000" />
+      <workItem from="1570855067309" duration="1209000" />
+      <workItem from="1571002656323" duration="1392000" />
     </task>
     <servers />
   </component>
